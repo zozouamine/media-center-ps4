@@ -1,138 +1,130 @@
-# Media Center
+Media Center is a homebrew media application for the PlayStation 4. It allows users to browse files on a USB drive, play videos and music, and view images—all through a lightweight, intuitive, and modern graphical interface controlled via the console's controller.
 
-A native, lightweight media browser for PS4 homebrew, with an English interface
-and UTF-8/Arabic filenames, search and file metadata. The macOS preview runs the
-same renderer, browser and decoders in a real Cocoa window with CoreAudio.
+## Key Features
 
-Current build results, package hashes and console limitations are recorded in
-[BUILD_REPORT.md](BUILD_REPORT.md). User-reported console trials are recorded
-separately from computer checks. The assistant has not operated a PS4 or emulator;
-cross-compilation and PKG validation do not establish console startup stability.
+- Browse USB files and organize content.
+- View storage sources (USB) with essential information, such as the name and available space (where applicable).
 
-## Implemented behavior
+- Four main sections/tabs:
+- **USB Files:** Browse all folders and files readable from the USB drive. 
+- **Videos:** Access the `Videos` folder to view supported video files (you must create a folder named "Videos" for its contents to appear in this section). 
+- **Music:** Access the `Music` folder to view supported audio files (you must create a folder named "Music" for its contents to appear in this section).
+- **Photos:** Access the `Photos` folder to view supported image files (you must create a folder named "Photos" for its contents to appear in this section).
+- Navigate through subfolders while maintaining a fast browsing experience.
+- View file details (name, type, size, path, etc., where available).
+- Search within the current folder, with support for both Arabic and Latin character input.
+- Features include "Favorites," "Last Played," and saved or current playlists, categorized by media type.
+- Safe handling of USB disconnection during use (automatically halts operations related to the disconnected source and returns the application to a safe state).
 
-- Four distinct colored tabs: **USB Files / Videos / Music / Photos**. Media
-  categories enter the source's `Videos`, `Music` or `Photos` folder and filter
-  the corresponding media type; subfolders remain browsable.
-- USB Files shows all readable folders/files. Nonmedia entries show their name,
-  size and **Cannot open**, with full information available from Details.
-- PlayStation header logo, a smaller title and smaller text throughout the UI.
-  Storage name and available space are queried from the source, never invented.
-- JPEG, PNG, BMP, GIF, WebP, TGA, PSD, HDR, PNM, TIFF and ICO viewing, including
-  bounded GIF/WebP animation. See [SUPPORTED_FORMATS.md](SUPPORTED_FORMATS.md)
-  for verified variants, compression limits and unavailable formats.
-- WAV, MP3, FLAC, Ogg Vorbis, AAC, M4A, Opus, WMA and AIFF playback with real progress, previous/next,
-  pause/play, stop, volume and ±10-second seek. Compact rounded buttons use
-  original transport icons. Embedded album artwork appears inside its frame.
-- A visible music **Back** button returns to the browser while audio continues;
-  **Stop** stops audio and returns. Repeat, shuffle and playlists work.
-- MP4, MKV, AVI, MOV, WebM, MPEG/MPG and TS/M2TS video through static FFmpeg,
-  with H.264, HEVC, AV1, VP8/VP9 and decoded companion audio. Playback uses real
-  presentation timestamps; pause and seek retain audio/video synchronization.
-  Six compact rounded icon buttons
-  provide previous/next, ±10-second seek, play/pause/replay and stop, with Back,
-  Options and aspect icons beside them. Every video button centers its icon without
-  a text label. The bottom gradient preserves the
-  video behind it. Controls hide after seven seconds without intentional input.
-- Photo zoom, rotation, fit/original, slideshow and animation pause/resume.
-- Arabic/Latin filename search, favorites, history, queues and private settings.
-- Read-only source access, bounded directory pages, background workers and safe
-  cancellation/disconnect handling. There are no USB file mutation actions.
+### 2) Video Player
 
-## Interactive preview
+- Play video files from a USB drive, featuring a modern control interface within the player. - Progress bar with current/total time, supporting fast-forward and rewind.
+- Basic playback controls: Play/Pause, Previous/Next (when a playlist is available), Rewind/Fast-forward (±10 seconds), and Stop/Back.
+- Volume control (for files containing an audio track).
+- Aspect ratio adjustment: Fit/Fill/Original (subject to availability).
+- Show/Hide control interface:
+- **Auto-hide** after 7 seconds of inactivity. 
+- **Manual hide** by pressing the **R3** button. 
+- **Show** upon any controller input (pressing a button or moving the analog sticks/triggers).
+- Attempts to display at **60Hz** on PS4 (automatically falling back to 30Hz if unavailable) to enhance visual smoothness when system resources permit.
 
-```sh
-./build.sh --host
-python3 tests/generate_fixtures.py
-build/host/ps4-media-center --source tests/generated/usb-demo \
-  --select 'Sample Video.avi' --data-dir build/live-preview-state
-```
+### 3) Music Player
 
-The window stays open until closed or Exit application is selected. Mouse clicks
-operate tabs and player buttons; double-click opens list entries. Arrow keys or
-WASD navigate, Enter/Space selects, Esc returns, T opens Options, Q opens Details,
-[ / ] selects the previous/next tab or track, and 1 / 2 seeks ±10 seconds.
+- Playback of audio files, displaying track information (such as Title/Artist/Album, if available in the metadata tags).
+- Displays embedded cover art (if present) within a dedicated frame.
+- Includes a progress bar and time display, Play/Pause, Previous/Next, Rewind/Fast-forward (±10 seconds), and volume control.
+- Supports Shuffle/Repeat modes and displays the current playlist.
+- **Background Playback:** Allows navigation to the file browser while music continues to play.
+- **Active Track Indicator:** When browsing files during playback, an indicator marks the currently playing file within the list. - **Quick Return to Player:** Tapping on the track currently playing in the background opens the music player and returns you directly to it—**without restarting the track from the beginning**.
 
-`./Preview.command` opens the interactive preview and prepares local fixtures if
-needed; `./Preview.command --video` opens paused video with its real transport
-controls. `usb-demo` contains real generated test media on the computer volume;
-it is not a physical USB drive and is excluded from the PS4 package. To browse a
-real mounted host drive, use `--source '/Volumes/your drive'`.
+### 4) Image Viewer
 
-## Build and verification
+- View images with support for zooming, rotation, and options to fit to screen or display at original size.
+- Slideshow mode with adjustable interval timing.
+- Support for animated images (such as GIFs or animated WebP files, within supported limits), with the option to pause or resume the animation.
+- Display of image metadata (dimensions, file size, etc.).
 
-```sh
-./build.sh --test
-./build.sh --sanitize
-./build.sh --ps4
-./build.sh --pkg
-```
+### 5) Arabic Filename Support and Search
 
-The default `--project` and `--ps4` build ELF/FSELF without packaging. `--pkg`
-explicitly builds a new version, validates the real PKG and checks extracted
-payload hashes before copying it into **PKG Build/**. Existing packages are never
-replaced.
+- Correct handling of UTF-8 encoded filenames (including Arabic characters).
+- A search input field that supports both Arabic and Latin characters (making it easy to search for files by name).
 
-## Storage and evidence
+## Supported Formats (Summary)
 
-The corrected current project is this working directory, **Ps4 Media Center**,
-as chosen by the user. The earlier case-sensitive sibling **PS4 Media Center**
-retains its previous source; it was not synchronized during this fix.
+> Actual support depends on the specific file (encoding, audio/video tracks, metadata, etc.). Some less common variations may not work, even if the file extension matches.
 
-The earlier v8 trial opened the interface, but its
-SDK diagnostic reports `result=-1, errno=256` and `/mnt/usb1` reports ENOENT,
-while PS4-Xplorer reads the same exFAT drive in Root / Jailbroken mode on
-PS4 12.52 / GoldHEN 2.4b18.12. See
-[the v8 USB report](reports/ps4-user-usb-v8.json).
+### Video (Containers/Extensions commonly supported in browsers)
+`MP4`, `MKV`, `AVI`, `MOV`, `WebM`, `M4V`, `MPEG/MPG`, `TS/M2TS/MTS`
 
-The user subsequently tested v9 and reached video playback, where the old build
-rejected MP4/MKV/H.264/HEVC because only its AVI decoder was linked. The new video
-path replaces that limitation. See [video verification](reports/video-v10-application-validation.json)
-and [format details](SUPPORTED_FORMATS.md).
+- **Supported Video Codecs (Software-based):** Includes H.264, HEVC/H.265, AV1, VP8/VP9, MPEG-4, and a wide range of other codecs available within the specific FFmpeg build used. - **Video Audio:** Audio tracks are extracted and converted to a standardized output format (Stereo, 48kHz), with synchronization maintained relative to the playback timeline.
+- **Notes:** Subtitles and interactive selection of multiple audio tracks are not currently supported (default or appropriate tracks are selected automatically).
 
-The next package uses the display name **Media Center**, Title ID **AMIN00048**
-and the matching content ID `IV0000-AMIN00048_00-MEDIACENTER00001`.
+### Audio
 
-v10 passes **80 test groups / 14966 assertions**, normally and under application
-core ASan/UBSan; **66 shared application checks** and **30 encoded-video checks**
-cover 27 real files, presentation timestamps, companion audio, pause and seek.
-All **120 PS4 units**, **42 ABI checks**, package signature/hash verification and
-**58 extracted payload files** pass. The bundled codec source archive matches
-the production inputs. Physical PS4 playback/performance remains to be tested.
-See [v10 release validation](reports/package-v10-release-validation.json).
+`WAV`, `MP3`, `FLAC`, `OGG (Vorbis)`, `AAC`, `M4A`, `OPUS`, `WMA`, `AIFF`
 
-The storage worker uses the official
-GoldHEN SDK to enable this process's filesystem access before probing USB. Files
-are read directly through native read-only handles. FTP and networking are removed
-from the application; enabling GoldHEN's FTP service is unnecessary.
+- Supports playback with seek (fast-forward/rewind) functionality; displays embedded metadata/album art when available.
+- Audio Output: **48kHz / 16-bit / Stereo**.
 
-v9 accepts the exact GoldHEN SDK version reply `0x100` that v8 converted to
-`errno=256`; all access/restore errors remain strict. It also rejects readable
-empty USB-slot placeholders on the same device as `/mnt`. Normal and ASan/UBSan
-validation, all 66 shared application checks, the 119-unit PS4 cross-build,
-24 ABI checks and the 51-file package round trip pass. The latest v9 user report
-reaches video selection and identifies its decoder restriction; the agent has
-not performed console testing. Previous packages are preserved. See
-[release verification](reports/package-v9-release-validation.json).
+### Images
 
-With GoldHEN running, install v10 and connect the USB drive. Choose Refresh if it
-was connected after launch. Square on an empty Sources screen opens USB
-diagnostics, including the SDK result and each mount's actual error.
+`JPG/JPEG`, `PNG`, `BMP`, `GIF`, `WEBP`, `TGA`, `PSD` (limited support), `HDR`, `PNM/PPM/PGM`, `TIFF` (subject to specific encoding/constraints), `ICO`
 
-The worker probes `/usb0` through `/usb7` and `/mnt/usb0` through `/mnt/usb7`
-after the first frame, then enumerates `/mnt`; it does not mount or format drives.
-The inspected SDK provides no usable
-friendly USB-label API: the actual mount identifier is the honest fallback.
-Free space uses native-layout `fstatfs`; macOS also reads the volume name with `fgetattrlist`.
-PS4 mount names, permissions and filesystem behavior still require console tests.
+- Supports animated images (GIF/WebP), subject to memory and frame-count limitations.
+- Certain formats or variants (e.g., HEIC/HEIF/AVIF/JXL, or specific TIFF compression types) may be flagged as unsupported, with an explanatory message provided.
 
-Private settings are stored in `/data/PS4MediaCenter`. Clearing internal app data
-requires confirmation and only removes the application's own state files.
+> For more detailed information regarding technical testing and constraints within the project, please refer to the documentation files included with the source code (e.g., `SUPPORTED_FORMATS.md` and `TECHNICAL_DESIGN.md`).
 
-- [Design comparison](reports/design-comparison.md): reference versus actual UI.
-- [BUILDING.md](BUILDING.md): tools and reproducible build commands.
-- [TECHNICAL_DESIGN.md](TECHNICAL_DESIGN.md): APIs, architecture and bounds.
-- [SUPPORTED_FORMATS.md](SUPPORTED_FORMATS.md): actual tested format variants.
-- [CONTROLLER_MAP.md](CONTROLLER_MAP.md): controller, keyboard and mouse actions.
-- [TEST_PLAN.md](TEST_PLAN.md): evidence and pending console verification.
-- [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md): source and licenses.
+## Controls (Summary)
+
+> Specific actions may vary depending on the screen or context (e.g., browser, music player, video player, or image viewer).
+
+- **Left Stick:** Navigate between items and menus.
+- **X:** Open/activate the selected item.
+- **O (Circle):** Go back.
+- **Triangle / Options:** Contextual options.
+- **Square:** File details/information (depending on the context).
+- **L1 / R1:** Switch between tabs.
+
+### Video Player
+- **X:** Play/pause (or restart if at the end).
+- **Left/Right or L2/R2:** Fast-forward/rewind by ±10 seconds.
+- **L1 / R1:** Previous/next (if a playlist/list is available).
+- **Up/Down:** Volume control (if audio is present).
+- **Square:** Change display mode (aspect ratio).
+- **Triangle / Options:** Options.
+- **O (Circle):** Stop and return to the browser.
+- **R3:** Hide/show the progress bar and controls (with an auto-hide feature after 7 seconds).
+
+### Music Player
+- **X:** Play/pause (or restart if at the end).
+- **Left/Right or L2/R2:** Fast-forward/rewind by ±10 seconds.
+- **L1 / R1:** Previous/next (if a playlist/list is available).
+- **Up/Down:** Volume control.
+- **Triangle / Options:** Options (repeat, shuffle, playlist, information, etc.).
+- **O (Circle):** Return to the browser while music continues to play.
+- **Square:** Stop music and return.
+
+### Image Viewer
+- **Left/Right or L1/R1:** Navigate between images.
+- **Up/Down:** Zoom in/out. - **Square:** Fit to screen / Original size.
+- **X:** Start/stop slideshow (context-dependent).
+- **Triangle / Options:** Information and options (rotate, display duration, pause animations, etc.).
+- **O (Circle):** Back.
+
+## Requirements and Operational Notes
+- A **PS4** console with a suitable Homebrew environment (such as GoldHEN).
+- Media stored on a **USB** drive in a format/structure accessible by the system.
+- It is recommended to place video, music, and image files into `Videos`, `Music`, and `Photos` folders for a better browsing experience across the application's tabs.
+- The application operates in **read-only** mode; it does not copy or modify your media files.
+- Application settings and state (such as favorites, history, and playlists) may be saved internally within the application's data directory on the console.
+
+## Privacy and Security
+- The application does not require an internet connection to play local media.
+- It does not upload files or alter the contents of your USB drive.
+- Read operations are restricted exclusively to the files/sources on the USB drive that are accessible to the system.
+
+## Known Limitations (Summary)
+- Video, audio, and image decoding is performed via **software**; therefore, some high-resolution or complexly encoded files (such as certain 4K, HEVC, or AV1 files) may not play smoothly on all consoles.
+- There is currently no support for subtitles or manual selection of multiple audio tracks within the player.
+- Playback smoothness and frame rates depend on both the specific file and the console hardware; practical testing on a PS4 is required for a definitive assessment.

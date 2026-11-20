@@ -1,0 +1,135 @@
+[
+  {
+    "file": "licenses/GPL-3.0.txt",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "source": "Bundled public dependency or inspected toolchain notice/source"
+  },
+  {
+    "file": "licenses/LLVM-18-LICENSE.txt",
+    "bytes": 15141,
+    "sha256": "8d85c1057d742e597985c7d4e6320b015a9139385cff4cbae06ffc0ebe89afee",
+    "source": "Bundled public dependency or inspected toolchain notice/source"
+  },
+  {
+    "file": "licenses/LibOrbisPkg-LICENSE.txt",
+    "bytes": 7650,
+    "sha256": "ea8af5e789cb2d4e9b10bce3874982ade163b749b6bfbdb32e2df21c4d106de1",
+    "source": "Bundled public dependency or inspected toolchain notice/source"
+  },
+  {
+    "file": "licenses/OpenOrbis-LICENSE.txt",
+    "bytes": 35149,
+    "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "source": "Bundled public dependency or inspected toolchain notice/source"
+  },
+  {
+    "file": "licenses/OpenOrbis-libcxx-LICENSE.txt",
+    "bytes": 16703,
+    "sha256": "539dd7aed86e8a4f12cbdd0e6c50c189c7d74847e4fecc64ce2c6ee3a01da38b",
+    "source": "https://raw.githubusercontent.com/OpenOrbis/llvm-project/master/libcxx/LICENSE.TXT"
+  },
+  {
+    "file": "licenses/OpenOrbis-libcxxabi-LICENSE.txt",
+    "bytes": 16706,
+    "sha256": "e2b35be49f7284a45b7baca8fc7b3ab7440e7902392b2528a457816b5bb2a15c",
+    "source": "https://raw.githubusercontent.com/OpenOrbis/llvm-project/master/libcxxabi/LICENSE.TXT"
+  },
+  {
+    "file": "licenses/OpenOrbis-libunwind-LICENSE.txt",
+    "bytes": 16706,
+    "sha256": "b5efebcaca80879234098e52d1725e6d9eb8fb96a19fce625d39184b705f7b6d",
+    "source": "https://raw.githubusercontent.com/OpenOrbis/llvm-project/master/libunwind/LICENSE.TXT"
+  },
+  {
+    "file": "licenses/dr_libs-LICENSE.txt",
+    "bytes": 2598,
+    "sha256": "dd1c647e6f767f8ff4b2dfae0fed314726600a01e0cf1ef556afddd5fa96ff15",
+    "source": "Bundled public dependency or inspected toolchain notice/source"
+  },
+  {
+    "file": "licenses/libtiff-LICENSE.md",
+    "bytes": 2416,
+    "sha256": "0e27c2382d7b8147972bbb746e04059a1152c8d0fda9d03ef1399d1a433c4ade",
+    "source": "Public upstream source; provenance and release hashes in vendor/manifest.json"
+  },
+  {
+    "file": "licenses/libwebp-COPYING.txt",
+    "bytes": 1496,
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf",
+    "source": "Public upstream source; provenance and release hashes in vendor/manifest.json"
+  },
+  {
+    "file": "licenses/libwebp-PATENTS.txt",
+    "bytes": 1436,
+    "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c",
+    "source": "Public upstream source; provenance and release hashes in vendor/manifest.json"
+  },
+  {
+    "file": "licenses/musl-COPYRIGHT.txt",
+    "bytes": 6107,
+    "sha256": "afe1df384787fce3577f3356b8b0d417381483f7c704eacb63f8050349fac77a",
+    "source": "https://raw.githubusercontent.com/OpenOrbis/musl/master/COPYRIGHT"
+  },
+  {
+    "file": "licenses/notosans-OFL.txt",
+    "bytes": 4396,
+    "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+    "source": "Bundled public dependency or inspected toolchain notice/source"
+  },
+  {
+    "file": "licenses/notosansarabic-OFL.txt",
+    "bytes": 4382,
+    "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+    "source": "Bundled public dependency or inspected toolchain notice/source"
+  },
+  {
+    "file": "licenses/openorbis-module-source.tar.gz",
+    "bytes": 18234,
+    "sha256": "4592ae947eb332c7125a7910ff95121d54f298d91ace7c90860488dfd0e483aa",
+    "source": "Bundled public dependency or inspected toolchain notice/source"
+  },
+  {
+    "file": "licenses/stb-LICENSE.txt",
+    "bytes": 2588,
+    "sha256": "eb36e45c704dd0b59730115523e089b051852625b4db0a6fe76c991900af20e7",
+    "source": "Bundled public dependency or inspected toolchain notice/source"
+  },
+  {
+    "file": "licenses/zlib-LICENSE.txt",
+    "bytes": 1002,
+    "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243",
+    "source": "Public upstream source; provenance and release hashes in vendor/manifest.json"
+  },
+  {
+    "file": "licenses/GoldHEN-SDK-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/GoldHEN/GoldHEN_Plugins_SDK/bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7/LICENSE",
+    "commit": "bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7",
+    "sha256": "fea871966de39ea6ef5ee584246bdbe60ef233f5847b9cf44edaf0b6cd798b42",
+    "bytes": 1064
+  },
+  {
+    "file": "licenses/ffmpeg-LICENSE.md",
+    "source": "vendor/ffmpeg-7.1.3/LICENSE.md",
+    "bytes": 4376,
+    "sha256": "cb48bf09a11f5fb576cddb0431c8f5ed0a60157a9ec942adffc13907cbe083f2"
+  },
+  {
+    "file": "licenses/ffmpeg-COPYING.GPLv2.txt",
+    "source": "vendor/ffmpeg-7.1.3/COPYING.GPLv2",
+    "bytes": 18092,
+    "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643"
+  },
+  {
+    "file": "licenses/ffmpeg-COPYING.LGPLv2.1.txt",
+    "source": "vendor/ffmpeg-7.1.3/COPYING.LGPLv2.1",
+    "bytes": 26526,
+    "sha256": "b634ab5640e258563c536e658cad87080553df6f34f62269a21d554844e58bfe"
+  },
+  {
+    "file": "licenses/dav1d-COPYING.txt",
+    "source": "vendor/dav1d-1.5.1/COPYING",
+    "bytes": 1317,
+    "sha256": "b327887de263238deaa80c34cdd2ff3e0ba1d35db585ce14a37ce3e74ee389e9"
+  }
+]

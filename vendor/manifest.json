@@ -1,0 +1,2583 @@
+[
+  {
+    "file": "vendor/dr_wav.h",
+    "source": "https://raw.githubusercontent.com/mackron/dr_libs/c2d31fed078120f67263fd36237c0dcaae6bc07b/dr_wav.h",
+    "commit": "c2d31fed078120f67263fd36237c0dcaae6bc07b",
+    "sha256": "7c9660d75361ad6175e6217c63a1075c9512445c06bc951197fc479179f76b39",
+    "bytes": 348779
+  },
+  {
+    "file": "vendor/dr_mp3.h",
+    "source": "https://raw.githubusercontent.com/mackron/dr_libs/c2d31fed078120f67263fd36237c0dcaae6bc07b/dr_mp3.h",
+    "commit": "c2d31fed078120f67263fd36237c0dcaae6bc07b",
+    "sha256": "0bf9ae11a1cae49283ad80143de77358aff4f74cdf42d49effc5ae115f5f11cf",
+    "bytes": 204058
+  },
+  {
+    "file": "vendor/dr_flac.h",
+    "source": "https://raw.githubusercontent.com/mackron/dr_libs/c2d31fed078120f67263fd36237c0dcaae6bc07b/dr_flac.h",
+    "commit": "c2d31fed078120f67263fd36237c0dcaae6bc07b",
+    "sha256": "bd569c910a7c465e481fd50af84e2871e81e2154e30ac510d98f953cc0d5a546",
+    "bytes": 549743
+  },
+  {
+    "file": "licenses/dr_libs-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/mackron/dr_libs/c2d31fed078120f67263fd36237c0dcaae6bc07b/LICENSE",
+    "commit": "c2d31fed078120f67263fd36237c0dcaae6bc07b",
+    "sha256": "dd1c647e6f767f8ff4b2dfae0fed314726600a01e0cf1ef556afddd5fa96ff15",
+    "bytes": 2598
+  },
+  {
+    "file": "vendor/stb_image.h",
+    "source": "https://raw.githubusercontent.com/nothings/stb/9600522de53973336fa033a289858a4354cbb04c/stb_image.h",
+    "commit": "9600522de53973336fa033a289858a4354cbb04c",
+    "sha256": "deb4f18c9ca21b751a1323019031c94c0bf5ca1d2929ef5913cc56f00aab6e91",
+    "bytes": 277883
+  },
+  {
+    "file": "vendor/stb_truetype.h",
+    "source": "https://raw.githubusercontent.com/nothings/stb/9600522de53973336fa033a289858a4354cbb04c/stb_truetype.h",
+    "commit": "9600522de53973336fa033a289858a4354cbb04c",
+    "sha256": "428cfe93520f2aed5e413a220b0db5bba5b17e2ebe5a64e4a8efa9eeeb67ec5f",
+    "bytes": 209182
+  },
+  {
+    "file": "vendor/stb_vorbis.c",
+    "source": "https://raw.githubusercontent.com/nothings/stb/9600522de53973336fa033a289858a4354cbb04c/stb_vorbis.c",
+    "commit": "9600522de53973336fa033a289858a4354cbb04c",
+    "sha256": "b52cf518355f7b2d181f18b97b812f361ffeb26299d935c8cf29e842401d60a6",
+    "bytes": 198004
+  },
+  {
+    "file": "licenses/stb-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/nothings/stb/9600522de53973336fa033a289858a4354cbb04c/LICENSE",
+    "commit": "9600522de53973336fa033a289858a4354cbb04c",
+    "sha256": "eb36e45c704dd0b59730115523e089b051852625b4db0a6fe76c991900af20e7",
+    "bytes": 2588
+  },
+  {
+    "file": "assets/fonts/NotoSans[wdth,wght].ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notosans/NotoSans%5Bwdth,wght%5D.ttf",
+    "commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+    "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d",
+    "bytes": 2049096
+  },
+  {
+    "file": "licenses/notosans-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notosans/OFL.txt",
+    "commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+    "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a",
+    "bytes": 4396
+  },
+  {
+    "file": "assets/fonts/NotoSansArabic[wdth,wght].ttf",
+    "source": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notosansarabic/NotoSansArabic%5Bwdth%2Cwght%5D.ttf",
+    "commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+    "sha256": "63111b5b2e074dd48cc67692e0a2726d86ee94c1c37fe8598257b7b4e87e869e",
+    "bytes": 844676
+  },
+  {
+    "file": "licenses/notosansarabic-OFL.txt",
+    "source": "https://raw.githubusercontent.com/google/fonts/8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5/ofl/notosansarabic/OFL.txt",
+    "commit": "8b0a1d0f5983c89bc2b93f1b5fb55f9e252744b5",
+    "sha256": "07fc70bfeb985cc1a87a8587d0a0c80bab11c86c9dc3fd95b6f0cb332f983e96",
+    "bytes": 4382
+  },
+  {
+    "file": "vendor/libwebp/AUTHORS",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "f251be89fd442bd9d701360730aea163cc8e2076ff03528f59267dc2c4f8b60a",
+    "bytes": 3279
+  },
+  {
+    "file": "vendor/libwebp/COPYING",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf",
+    "bytes": 1496
+  },
+  {
+    "file": "vendor/libwebp/PATENTS",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c",
+    "bytes": 1436
+  },
+  {
+    "file": "vendor/libwebp/README.md",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "0d50b504f133d1c65199521cafbfdb4024585809265884b99c00145ae64f644e",
+    "bytes": 1662
+  },
+  {
+    "file": "vendor/libwebp/decoder_sources.cmake",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "1a2d19372334c8fc81f4e59bc10bc6ce42a723a2ab4096e2cbca0a5d9a094a26",
+    "bytes": 1578
+  },
+  {
+    "file": "vendor/libwebp/decoder_sources.json",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3aec559520be4bf4f0cef203ca207608930c84bba072f482b95b3420f71e4c42",
+    "bytes": 1027
+  },
+  {
+    "file": "vendor/libwebp/ps4mc-budget.patch",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3500963916cc4e2bbb8704662bfa27a5bc03c872185a6231d9649c9077080378",
+    "bytes": 1050
+  },
+  {
+    "file": "vendor/libwebp/src/Makefile.am",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3c58c7bdb76e230d03e2ef53d19fb8fb7ea0fc90e96fb3d5832fbc92f84187d4",
+    "bytes": 1601
+  },
+  {
+    "file": "vendor/libwebp/src/Makefile.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "2f9972a280d9ae0120a39d0e2446842904694e2bbe1e3c3e4373ee3a4ce5d622",
+    "bytes": 29885
+  },
+  {
+    "file": "vendor/libwebp/src/dec/Makefile.am",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "07b6e9d84e080a1f95bac4e357d241d60ebacddbf5792330df9a11a74495106d",
+    "bytes": 1026
+  },
+  {
+    "file": "vendor/libwebp/src/dec/Makefile.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "c78c8ba5ebd7ee4d0a0f37f96124b651f016f53e83aa951863d2ffa1b2b89f9d",
+    "bytes": 35726
+  },
+  {
+    "file": "vendor/libwebp/src/dec/alpha_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "fdc26ce284c26ad819a7ce7c35f7bb4b146b844cafcabf9c6c421a8178c4101e",
+    "bytes": 8294
+  },
+  {
+    "file": "vendor/libwebp/src/dec/alphai_dec.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "051d1ec0195bb7fd5e44b18dc3f0c8a928f5597c4e28cb36d47de35ef532a41c",
+    "bytes": 1736
+  },
+  {
+    "file": "vendor/libwebp/src/dec/buffer_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "448981ff77aae496fae9ec1c9292011f5239f58704cf3a89899ab153d1072963",
+    "bytes": 10765
+  },
+  {
+    "file": "vendor/libwebp/src/dec/common_dec.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "89eb36f74a027e5e40176ba73d8e1e95e62803cb3de97bd798922079f412a2f6",
+    "bytes": 1794
+  },
+  {
+    "file": "vendor/libwebp/src/dec/frame_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "0cf084285d0fb94e9f27ba7a4c5381afcff13d3fb0bfa2123a73ce31a6f2be72",
+    "bytes": 28290
+  },
+  {
+    "file": "vendor/libwebp/src/dec/idec_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3665583e435c97f94baf8589e67286bdb390358e0702183f056b3ce6aafd84e1",
+    "bytes": 31958
+  },
+  {
+    "file": "vendor/libwebp/src/dec/io_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "5f5c1c75d6440bcf44f7d39a8fc9012f8781c0ac621b918d27b29b3c86723328",
+    "bytes": 24192
+  },
+  {
+    "file": "vendor/libwebp/src/dec/quant_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "08b20b9b4b8352f4cd46c672730a2687c6e8c9873599460670950de0a81d9ee4",
+    "bytes": 4172
+  },
+  {
+    "file": "vendor/libwebp/src/dec/tree_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "d49bcf9ea2e7b2bdee239be9848aaae90f3be83f392500fa9b2f163132f59320",
+    "bytes": 23658
+  },
+  {
+    "file": "vendor/libwebp/src/dec/vp8_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "548c31dc8a3eae05b1ec285e2da750aba159079d4fadee4b5f0f73b34fba7856",
+    "bytes": 22777
+  },
+  {
+    "file": "vendor/libwebp/src/dec/vp8_dec.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "2e34adde9a6d4ae4bba16a03d9d604a49b90dfc30dbec7e436b9934a24120e37",
+    "bytes": 7103
+  },
+  {
+    "file": "vendor/libwebp/src/dec/vp8i_dec.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "56422f4c59e25d44b0e7045a8e6c80f196862dcc77a9948054ac0b1e1c093d00",
+    "bytes": 11804
+  },
+  {
+    "file": "vendor/libwebp/src/dec/vp8l_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "49e4aec24d95d70df3c53e9ae53d5f3bc5646012d9f1d0968a5f88936f310653",
+    "bytes": 62514
+  },
+  {
+    "file": "vendor/libwebp/src/dec/vp8li_dec.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "4f1bc8d0a4ad64816f5d19ed6ef95533d00fb548b1b51a7ba85b65d88fd6ae14",
+    "bytes": 5508
+  },
+  {
+    "file": "vendor/libwebp/src/dec/webp_dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "76c61ca30205025c758cc215af96296ecc5cde882c1d668ded9e89d7d2bae80c",
+    "bytes": 33243
+  },
+  {
+    "file": "vendor/libwebp/src/dec/webpi_dec.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "78a7d476c29c7c2ca41ca88f2d9111e33855b8b7c6eb186f23ab01585f252475",
+    "bytes": 6455
+  },
+  {
+    "file": "vendor/libwebp/src/demux/Makefile.am",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "7565e3cdf141a7c037b64be6818218eff17067248ab50c3125ea0708b344bce4",
+    "bytes": 623
+  },
+  {
+    "file": "vendor/libwebp/src/demux/Makefile.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "590be7f36331403a6f3e47e1d843f9f020f47f56180e904ade92421568b77705",
+    "bytes": 24650
+  },
+  {
+    "file": "vendor/libwebp/src/demux/anim_decode.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "4bbeb1790b33c33fd65cc414cd7c471249b0fa2fa1a11a7d37a89e06e8d7bd28",
+    "bytes": 17495
+  },
+  {
+    "file": "vendor/libwebp/src/demux/demux.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "981ea5940c609ecf708f0879bab96bdff4350e3cdc52da6471a3258989173183",
+    "bytes": 31935
+  },
+  {
+    "file": "vendor/libwebp/src/demux/libwebpdemux.pc.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "496b5640c21c89043aed03dfd0aaac4ae8cd1b1ad0a537fda644d218a1cd5004",
+    "bytes": 307
+  },
+  {
+    "file": "vendor/libwebp/src/demux/libwebpdemux.rc",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "8cb523389f35d5c8b69a42df9803f8f17b0baa5c2218fbbd9c3ece49073a745c",
+    "bytes": 1037
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/Makefile.am",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "c09e5204bfa0176792737fd3f26b982794f2ec9174dc918fcb035991d5f6f818",
+    "bytes": 8263
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/Makefile.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "7804df4abd1a28392cd65d43efab1d0aaa9b0f681f2f99f9e8d0d3283b4bc502",
+    "bytes": 156176
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/alpha_processing.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "dd3ffe4d16382e4175ab9c9b96ababc4e0363a01d9d98737b20869c51df62444",
+    "bytes": 19532
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/alpha_processing_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "81427f700a767f49ee55c8c7846c03abe8b84a95b051ca16027cae573caf9927",
+    "bytes": 10249
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/alpha_processing_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "0fd418b9d3394639fc5780ebb2ac04868fd838d6e2d8ec1b30616620e10329ae",
+    "bytes": 7261
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/alpha_processing_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "0ce2f30345349be049dd712d87503ce280439ebe47ae35df870dc0fdc50b462c",
+    "bytes": 17558
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/alpha_processing_sse41.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "0c00a6a5a9b6af4091ca34437b2eeff110736a256df30e3aa31144c2535e39a7",
+    "bytes": 3820
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/common_sse2.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "1c299ca6a84bf59d9e0bf0c2edad93f231c0a9a35bc2f75f0789df78b65231b2",
+    "bytes": 8040
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/common_sse41.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "d8cff4e7687b071d2fba3270f1b0dc6548e9151d1ec726d85b63c43bbc7b0df6",
+    "bytes": 4658
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/cost.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "8b2e50e02a155ec5214025febff04aad90d4351d46c3d7c8e35f78f249d548cb",
+    "bytes": 18460
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/cost_mips32.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "30114801511290152ba6dc73ebd7d79047e1fa68fbaf0c42d86a8c0c067777e2",
+    "bytes": 7193
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/cost_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "e215378ba9cc2d569a3f6557bb4f274697b3038d3847ae105d19e4a0f3d0c1de",
+    "bytes": 4824
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/cost_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "4ddcd841e86574d606e9fbf106df836cb50f31bc8fb2293fc04aa8411846e6e2",
+    "bytes": 4332
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/cost_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "b1ddd272030caef120c53b379f1eca52729e4dc2c006d58db327c96d0749f392",
+    "bytes": 4571
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/cpu.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "cd231d22bb17d9ec9a6f17daa3429be2a3e03adb5eb1472807857e43622c684c",
+    "bytes": 7653
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/cpu.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "272cb2a8aa81d6355afecdea7ea344c90c2df58e6f51e01aa8bc4bf866d0be59",
+    "bytes": 9231
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/dec.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "ceea12ceb6266d129e97448da20394769b003b1b29a1a0b20f09c9e837b425d3",
+    "bytes": 28153
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/dec_clip_tables.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "4581e8fe4a4a71a1b247adfad0cb84831378d2fe405a2c057c41b0ae0fe17c0e",
+    "bytes": 24009
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/dec_mips32.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "eafd93575fe3d75a4e7d3150e8024a97fbf9f4927a39fad287b6e44907f6ae23",
+    "bytes": 26925
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/dec_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "5377431197a5eb50bfa8adc0ca34496d361e4a5b63ba938e33a0d84e4b7103f1",
+    "bytes": 51089
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/dec_msa.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "f1639cec05027302e900b7ed25b14a9c0a182665c89f8cb696c8dae58bb537c4",
+    "bytes": 41156
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/dec_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "12a9552e9ab7aa3f0619f04cae9bce9009e23e82b3df86aab08e811d2af949ff",
+    "bytes": 69683
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/dec_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "7338c14409532be4663e7adf2e5d5c3f8368c0f54da4aceb72dba6c45402fd2e",
+    "bytes": 47956
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/dec_sse41.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "f63c722459d315ef6c8527bf1d611c7ff620a370805a2915cb5cf0a42d5edbde",
+    "bytes": 1420
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/dsp.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "de2cd2249ac7354e303deaff8691a32c6758fb41d9acba922d3b91141709b8d8",
+    "bytes": 23712
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "9c4d7d48ce0379d1d81948cf61402d0f90a8337b15e23a36911f3ad596d567f5",
+    "bytes": 27006
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/enc_mips32.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "558dd5b164c9f7c9079aac96d418ca6112afd8a84ec677c4f08273693b24e7d9",
+    "bytes": 35568
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/enc_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "244083020c6b5c7e07e8ca2b362b67d59bb205464881b9cff668714a21ab0acd",
+    "bytes": 83579
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/enc_msa.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "6b34a2f3180bc3de92a33d2b53ce26687004b59dfd603868d6259834fe947988",
+    "bytes": 34626
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/enc_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "67909f893dc3daae64691d95b1a8d642917fbdd723d6d559929cae51b7e8c238",
+    "bytes": 48427
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/enc_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "5dd1d1359a397179e2809161acac41766fb6eb104c4d36c886c698ee66671b3c",
+    "bytes": 62456
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/enc_sse41.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "cf741a1b75b3de7fd144d9ab82ef68ba1b298e93d00a24f5b697132727b9434f",
+    "bytes": 13486
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/filters.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "57ae0d3cac9588febbf8e232232d8e417336dad5bf5e84560a4eaa4cf02b540c",
+    "bytes": 8938
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/filters_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "1fc5b49283f6ab07ee74640e0a3913f7497600770ebcc52037269b960c6a2f2d",
+    "bytes": 20203
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/filters_msa.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "902815bd41649ddd8c7c10b0cec7ea98a85f2a0959a302f5a9d1423a9b9a551a",
+    "bytes": 6112
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/filters_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "559b2730b913162d404c76f33b12469f30dcac83e026ee4f9e6df605b72186b4",
+    "bytes": 11048
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/filters_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "b2c0d5e879149f6aa2af8eecc499a418220b1cfe4631988bb51804de73b8f1e5",
+    "bytes": 12650
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "bd5a856ad112eb33b3e470b483d48f86c8250728b36dfe1d137f5b36a2c70b76",
+    "bytes": 26406
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3c0883abadfd6ca043e60c212a129e35633c9deb7fdaacb214a5680666b1bc8a",
+    "bytes": 12871
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_avx2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "e2b591968e6b3b575220bf5ac0792d26a433b260ba99e9bf9c5b5fa265f088ed",
+    "bytes": 18843
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_common.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "1e37c5f845073710fd7ccaabbc9b7b8d1a3a1cd17e09e49ffcea9b09f5723258",
+    "bytes": 8435
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "5ec0a71aff4b50235351dc1a2934881526c017c28a42e16073638d2e3e5736b8",
+    "bytes": 35457
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_enc_avx2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "b829cacbe0386d9e1de5cee572e71b3e1d7a38949f7426b52ce2455aa4a859d0",
+    "bytes": 32487
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_enc_mips32.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "c097eadd58d57f1b9463385cfe85a3b7788c72bf288e0e3b4904f9d34d9e0004",
+    "bytes": 12865
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_enc_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "715dc7f7c8c21674c5c4975fb0a530819747a09cf34cdf79c892b4fba815acfc",
+    "bytes": 13591
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_enc_msa.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "372e40c5db6104cd3e7a773ba51919e6db6f4da0ec12ab0cdb88846bcdca9513",
+    "bytes": 5755
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_enc_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "34f0d51130266f1d1660f152f0a4e1f529fb64eca1fede3a2a9bdc687f39f98c",
+    "bytes": 5236
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_enc_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "95517131f482a4b6910ceb428e146154b2feff69f314863b8ce5161e43760b74",
+    "bytes": 32857
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_enc_sse41.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "870a8ee83b5421ee258d07d2946299df99c94358577a49a53dffb5526b6288ed",
+    "bytes": 7267
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "42b407c55ef4f9263debdfe8b11cdf0ec1b49d31731ce391fe7789a89d98daf4",
+    "bytes": 39181
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_msa.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3f97f60e8ef0d8dc3511eb55813b91ef442a4dec739eb68cff1f804c1dda6185",
+    "bytes": 13031
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "28a42dcdc5012c4394cf1c3fcbb1e91bab60347558644bb1f3c49c6eeed76f0a",
+    "bytes": 26687
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "f826ff534c35da1958918b5987a00dbc4884627a9f5c13cbc64e60779a54a645",
+    "bytes": 31910
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/lossless_sse41.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "83f94991acb33a58c8bf440ef8a20935e0f55241b8215e06cb565cbee8c40b17",
+    "bytes": 5561
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/mips_macro.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "7de2aa5c1d20047a70cce0af915baf3e83e4e8a3dc3cc30de73862ae157cb22c",
+    "bytes": 12476
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/msa_macro.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "18acd36196f13f911a99dbd8ba9a32d4a74cc804ecf678819b321c74c88d12c2",
+    "bytes": 64181
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/neon.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "69bca778703e422ffcdc4fd546599cbd916fcf32bcc1a91cdc49cc22ed0e553f",
+    "bytes": 4031
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/quant.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "d4cb87bf72e8fec7c846203f94ea8f8398cb10780aaefad947f472a65e5fede0",
+    "bytes": 2631
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/rescaler.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "47e45d83fbb3eec2ede6b02e107f1df83de693282d5441d4a8d41b13c52f236e",
+    "bytes": 8304
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/rescaler_mips32.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "39fa8b0e328cbfabba1e6f96f8c8e8adaeaaf1ee69d049346b0cce40851da8ed",
+    "bytes": 13474
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/rescaler_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "784b28f7d14fcdc6476653880a7d477c7def8b51f84a15ea813f3a142b74acd7",
+    "bytes": 16016
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/rescaler_msa.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "9d92f80915a74b304b855c3a1043274b68fa3e130893a8ef3c9835582f2a1818",
+    "bytes": 17225
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/rescaler_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "7e62a1fd66a3d72368af9282f63fe958937401cf4365b07ff1a2093a625474b3",
+    "bytes": 7453
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/rescaler_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "c28260db5bb9feb3c95533abe967349f858d48b7b99968f7999694a8f228d2bf",
+    "bytes": 14579
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/ssim.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "a43156c458a8577e486fa3159807a516f8ec65e890b3f2f341ba1e21c269a752",
+    "bytes": 5409
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/ssim_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "882461fbd3473930a9ac6428b19246ede310de6de25808abe9277327fd47c4fe",
+    "bytes": 5842
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/upsampling.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "21b05126aff3fbe902655a7081e3a538f8d1ca6cc9e0907c607e1c4c50ba0a9f",
+    "bytes": 15863
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/upsampling_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "833c0e1210b6fa161c5f6f488d52e872849b0498dec2b8a628052d925d1fba5c",
+    "bytes": 13794
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/upsampling_msa.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "d9232bd03b4469b7daf177cefcdffc4eeadf758289832038ff3cb64f97ea6b78",
+    "bytes": 29529
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/upsampling_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "f1fa58068f5382b74bc4c6db81c87a8a9c79a7c3e7689cf83fbf2d1775b79e8e",
+    "bytes": 16440
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/upsampling_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "463e059ee5d310f2a156bb975a7a06a780d1a5eb3cbc4c1180f2cb679401f247",
+    "bytes": 15689
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/upsampling_sse41.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3d90804357657f438656d54afc4dbb313e670228cdd3dd3ca79a0b034f694ef7",
+    "bytes": 13892
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/yuv.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "1d334957aee6eb67862e7c06f60ffd19b7661f3fce831385de1ba408dc426311",
+    "bytes": 9728
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/yuv.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "5805c01f84a677e50bf0d16cd903b78d25c2a0c46fe17c67ce0e48f11f3d512b",
+    "bytes": 8467
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/yuv_mips32.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "eeceb3b37c83965a9f51476f5acd44b5992eef6fe9dd88a3d82b1b971646b6f9",
+    "bytes": 5999
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/yuv_mips_dsp_r2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "856db4f60026d49368a1004c2e20326e6af79d719141f2e5438482bdf70c1682",
+    "bytes": 8145
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/yuv_neon.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "2441f4e932e3cbd008c7c545aa06433d5613268c9705fdb88efe9586b12caf23",
+    "bytes": 7396
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/yuv_sse2.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "492192af611e7dc43fe10f4115cb6e4bcfa506b65177c1e3acfc3db1436a6b22",
+    "bytes": 30298
+  },
+  {
+    "file": "vendor/libwebp/src/dsp/yuv_sse41.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "1b45b11a736e1f40075a0ba316f970eabd860ea7aee6c859d089a69e139c37b9",
+    "bytes": 24716
+  },
+  {
+    "file": "vendor/libwebp/src/enc/Makefile.am",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "f5e3d099fed4d82e487bc74425f7135b7635d853bdd4cf3133e1e286441712ff",
+    "bytes": 1705
+  },
+  {
+    "file": "vendor/libwebp/src/enc/Makefile.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "db6bfcac150ce2b973d30aeabe92de48a3b2668be5554ceb22e767ca16933439",
+    "bytes": 56482
+  },
+  {
+    "file": "vendor/libwebp/src/enc/alpha_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "0dec70e199509c7f31f979375c1d1ff332007501c129936a70350a4a6290dc1f",
+    "bytes": 16067
+  },
+  {
+    "file": "vendor/libwebp/src/enc/analysis_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "aaee5ca8301de3e7a572d4bb94ad7dee62fd6f3ea47c4ade8a13f7f3603723e3",
+    "bytes": 16429
+  },
+  {
+    "file": "vendor/libwebp/src/enc/backward_references_cost_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3ef411d5b2c6428e62ce96033b9ccad604f2f0d24cc2d6544070f24ac5dca99e",
+    "bytes": 29637
+  },
+  {
+    "file": "vendor/libwebp/src/enc/backward_references_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "59ca144a95dd40a3b42fcaf5e2ef1fe7382ada8425cb860e469023b826173192",
+    "bytes": 38883
+  },
+  {
+    "file": "vendor/libwebp/src/enc/backward_references_enc.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "1dd2e2d420c022a5777c3a03a571a162f5224652c3087e06c0039ff3764dabb4",
+    "bytes": 8810
+  },
+  {
+    "file": "vendor/libwebp/src/enc/config_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "a302d98ad9390ec1bfc13181e90191cc5cbd7110dc21c2c03666fdc04e3ca0c0",
+    "bytes": 5696
+  },
+  {
+    "file": "vendor/libwebp/src/enc/cost_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "f77e06305fd4ac357c3175f34a90a5e1fe1bee0512c39eb5f2b2758c22d6197a",
+    "bytes": 15353
+  },
+  {
+    "file": "vendor/libwebp/src/enc/cost_enc.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "6b21e523297b142f7b60f4826591892a31c0965a58855cdcaf35bd33e948cb39",
+    "bytes": 2571
+  },
+  {
+    "file": "vendor/libwebp/src/enc/filter_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "1abfa8d37c863f34fcbb33d888d7df16742a994d138529ddf49c347956799a35",
+    "bytes": 8957
+  },
+  {
+    "file": "vendor/libwebp/src/enc/frame_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "e4d79571634c66ebf44044fe38d04d4baec18acdc642e6adc06c7a9a91c17b04",
+    "bytes": 29398
+  },
+  {
+    "file": "vendor/libwebp/src/enc/histogram_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "b29e6185aeb75de958bfc53fc0cd638b471b2060e50b50d1c52ea060d4472d18",
+    "bytes": 44593
+  },
+  {
+    "file": "vendor/libwebp/src/enc/histogram_enc.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "9dc73a2ac647149add1b718a3dc7c0cd3df7604c5a624a79750c8e75dd2449b4",
+    "bytes": 5139
+  },
+  {
+    "file": "vendor/libwebp/src/enc/iterator_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "afdd4ef565e5654541d91055e4c5a9b9756e0ec5f996d70c73845bf0d5e1ec7e",
+    "bytes": 15231
+  },
+  {
+    "file": "vendor/libwebp/src/enc/near_lossless_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "83c9810c2d9d23718c9cbc5a6861e4e134c1bdda6980867e8e1dcb18ec95c223",
+    "bytes": 5396
+  },
+  {
+    "file": "vendor/libwebp/src/enc/picture_csp_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "029955602b9752ce92ccb61550d09121da0b4a040e1aaebad4da8bb0f8ed4585",
+    "bytes": 31364
+  },
+  {
+    "file": "vendor/libwebp/src/enc/picture_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "ddf584e4a09c7d8f39a711bef813044f105eb1c5c62f3148b21cf7d998fdc073",
+    "bytes": 9365
+  },
+  {
+    "file": "vendor/libwebp/src/enc/picture_psnr_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "d9a96fbecefe248e5e37673b4de74ca01e3ef14a622cf8f08dbc4e08b55dd3b4",
+    "bytes": 8592
+  },
+  {
+    "file": "vendor/libwebp/src/enc/picture_rescale_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "575d8bd82f2f236eeb33056e962b67a5feccfcf8faed4dd33bc229b47dc925c0",
+    "bytes": 10488
+  },
+  {
+    "file": "vendor/libwebp/src/enc/picture_tools_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "6d4d2103a29be718b3bd5f215872bde6bfbc01f9b1ef1be0d84b374c0ee1526a",
+    "bytes": 8966
+  },
+  {
+    "file": "vendor/libwebp/src/enc/predictor_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "370c38e23ac48c89660633218dd2a69e56bcfee68af975ecf333de9fc903fea6",
+    "bytes": 46398
+  },
+  {
+    "file": "vendor/libwebp/src/enc/quant_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "7fb4311aad071dc23bfb289c7635922e9bfe744f4fd763a338def95c57b4f4ad",
+    "bytes": 50400
+  },
+  {
+    "file": "vendor/libwebp/src/enc/syntax_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "876b8551a998bbec5bfa1811e7cf79a9470279a1c684df5ed33005504fd4c9b2",
+    "bytes": 12758
+  },
+  {
+    "file": "vendor/libwebp/src/enc/token_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3b8bdabbc9a3432e318a753b728e56de3bb37c4f4d4b3617381db5f63f6e827f",
+    "bytes": 8486
+  },
+  {
+    "file": "vendor/libwebp/src/enc/tree_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "c1f62a7852358f903ace0fcfb2cb4f73837bc4910ea493c6954fba195aa01192",
+    "bytes": 22100
+  },
+  {
+    "file": "vendor/libwebp/src/enc/vp8i_enc.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "57f41fb07d50dc8508a45416844c967efe29356020dbec355725e8f67f888c10",
+    "bytes": 21823
+  },
+  {
+    "file": "vendor/libwebp/src/enc/vp8l_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "95f1037606289e315a2413cfc2ca537340a5036ba28ae52ad1c85d8a8efa20b8",
+    "bytes": 71847
+  },
+  {
+    "file": "vendor/libwebp/src/enc/vp8li_enc.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "bbb1c53225941bded882ce1cd314923f7f7a55004ea17cf3da18d1f6c40eaedf",
+    "bytes": 5066
+  },
+  {
+    "file": "vendor/libwebp/src/enc/webp_enc.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "62c6fc2b5abeae19ea7af1b249a1896fe22c445f75806bec51bac8478a90ad2f",
+    "bytes": 14317
+  },
+  {
+    "file": "vendor/libwebp/src/libwebp.pc.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "30f7f2208a26e7205c6ff33e69990a83c38f4118c1baf1f01120387286a22808",
+    "bytes": 324
+  },
+  {
+    "file": "vendor/libwebp/src/libwebp.rc",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "739b483681b0ed9a55b5f9609f632c4e4b51410157334e6834321afe85210768",
+    "bytes": 1020
+  },
+  {
+    "file": "vendor/libwebp/src/libwebpdecoder.pc.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3b3574e3657d02ebc45b22bc54e9d11b47fba90f65862f01d9181ed7e21e7ec2",
+    "bytes": 322
+  },
+  {
+    "file": "vendor/libwebp/src/libwebpdecoder.rc",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "fc8829cc120f360410b24f68f8348776c56a2168fdf56033030e2de2f6d19808",
+    "bytes": 1043
+  },
+  {
+    "file": "vendor/libwebp/src/mux/Makefile.am",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "8470d0099dffc0419969e51bc700865bfd903900e696c90fef23291b45510b17",
+    "bytes": 720
+  },
+  {
+    "file": "vendor/libwebp/src/mux/Makefile.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "113436baad295eb68448268c86638275d871319feea82646eb4e121d29f44e3b",
+    "bytes": 24997
+  },
+  {
+    "file": "vendor/libwebp/src/mux/anim_encode.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "005dc631750079d5d6e3009a5aa38069e7ae0502e395149768c49d4a1ea42bea",
+    "bytes": 59116
+  },
+  {
+    "file": "vendor/libwebp/src/mux/animi.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "2a857b0d19545be3a781926ed268b7d778151a9110e455693d2dc86931be8f97",
+    "bytes": 1585
+  },
+  {
+    "file": "vendor/libwebp/src/mux/libwebpmux.pc.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "f1c1de85c0e094ed498f2a4c79d0f9df13e2e409b382c72a09dd11a2c1ece5d2",
+    "bytes": 326
+  },
+  {
+    "file": "vendor/libwebp/src/mux/libwebpmux.rc",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "01e1e7cb2b14bfb2e42b0c2e55e4521f920b2cea06b58670eaa8f2d592ab6651",
+    "bytes": 1029
+  },
+  {
+    "file": "vendor/libwebp/src/mux/muxedit.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "7517d0e60df34ff5d6868271c04a9d8b36f2143a7fbc4578f02d6a8e73e37900",
+    "bytes": 22060
+  },
+  {
+    "file": "vendor/libwebp/src/mux/muxi.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "df1a1eb4ffad56782bf4acd4cc034e3e7e0789a677c06237a4f6765c0967ff77",
+    "bytes": 7820
+  },
+  {
+    "file": "vendor/libwebp/src/mux/muxinternal.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "e483fbd0e9e36880f77b1eb01b5deb514db8b20834748049989f5368ff41ae8b",
+    "bytes": 17968
+  },
+  {
+    "file": "vendor/libwebp/src/mux/muxread.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "be24a01bbcee27cd7cf1e0ef01ae28de2d1eb7b99f2430b939b70cda1c7cdf54",
+    "bytes": 19728
+  },
+  {
+    "file": "vendor/libwebp/src/utils/Makefile.am",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "35583668727112e640f5053214ac292dfd8f867bfd9581ab3f31684e1302d798",
+    "bytes": 1575
+  },
+  {
+    "file": "vendor/libwebp/src/utils/Makefile.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "91cd3f2dc501529462a652ebf0fd0a7d21f23dbe49b6635ecbc05c88961d81da",
+    "bytes": 26112
+  },
+  {
+    "file": "vendor/libwebp/src/utils/bit_reader_inl_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "2fd9be790a86039e443e5f49f61dc2cc5cb8e8d313cbb40e164362fa4db23241",
+    "bytes": 5930
+  },
+  {
+    "file": "vendor/libwebp/src/utils/bit_reader_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "f639602d395ff4a02ea351b04d3b92ae170751889a9d313e1b196ddb883521f3",
+    "bytes": 9097
+  },
+  {
+    "file": "vendor/libwebp/src/utils/bit_reader_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "e08a177ee1ae47c945fe0f029673c6edba09c69bd81e2fae8f6e3ed671bd79d5",
+    "bytes": 7708
+  },
+  {
+    "file": "vendor/libwebp/src/utils/bit_writer_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "7fe0ec0c2cc767dd02a53f418e7cb22b91b44f92a5565fd77068f628374c926f",
+    "bytes": 10986
+  },
+  {
+    "file": "vendor/libwebp/src/utils/bit_writer_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "3c7748abafcab71facb7b0169785f1ca1141ba9c1332d1aad45a2316c97c7a03",
+    "bytes": 5948
+  },
+  {
+    "file": "vendor/libwebp/src/utils/color_cache_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "c7dd35a6d3cee5ff7f928d900a5bdc02b20cc7018f3a9f7a2f87ae8e87457e8f",
+    "bytes": 1701
+  },
+  {
+    "file": "vendor/libwebp/src/utils/color_cache_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "82ba22d02e8d03c5785237badb9784d32ad8a0e78b12724ffe744892fd902032",
+    "bytes": 2917
+  },
+  {
+    "file": "vendor/libwebp/src/utils/endian_inl_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "7bdca5f4b45730eecdb92b2ece48618a664466065886e0e0115b122ecd2fc748",
+    "bytes": 2851
+  },
+  {
+    "file": "vendor/libwebp/src/utils/filters_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "dfbd55abe3c7e4684e2b8fe5efe0093b19d55cd3b7b982685cdbf31370eba1ff",
+    "bytes": 2588
+  },
+  {
+    "file": "vendor/libwebp/src/utils/filters_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "72c0dbf2ef0a33813030cfa471ffc425ae2c9b716ebff07d73681362b3fe92b3",
+    "bytes": 986
+  },
+  {
+    "file": "vendor/libwebp/src/utils/huffman_encode_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "d2957e70e97ea9da9b90fa2b206f3d5cf6687e8a60750454cce35d14a8058a5f",
+    "bytes": 13526
+  },
+  {
+    "file": "vendor/libwebp/src/utils/huffman_encode_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "97cf4d442aebcf3cb6cd68ec81573a9df5ce7bd2de1b815f97947fe27a639b6d",
+    "bytes": 2144
+  },
+  {
+    "file": "vendor/libwebp/src/utils/huffman_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "15c1d89d7567c2121bae05ce8dea6deba160945dd398bc6d6b9a88b40ba523eb",
+    "bytes": 10624
+  },
+  {
+    "file": "vendor/libwebp/src/utils/huffman_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "6a4c855766558f22a0ee204089fb86c3dcca548ed0f44a85e8d6cdf0f73cc177",
+    "bytes": 4537
+  },
+  {
+    "file": "vendor/libwebp/src/utils/palette.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "26e90df0dc0b2bc7a251d2dc021f923af7f1529f8dddeeb80ea50b7dd6c31c9a",
+    "bytes": 14146
+  },
+  {
+    "file": "vendor/libwebp/src/utils/palette.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "a4a08586739af0748fdb8dcb53501b1ea74b2fa1589f8170c95ad3082283e7f6",
+    "bytes": 2660
+  },
+  {
+    "file": "vendor/libwebp/src/utils/quant_levels_dec_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "d453e3595e19123e9af2696201bf55e404477d6ca3628d9324f5830ea3e73417",
+    "bytes": 9072
+  },
+  {
+    "file": "vendor/libwebp/src/utils/quant_levels_dec_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "bb046261ae6e07530a0aedbb9f73e8e83924815734119dca8c88afa4e1588350",
+    "bytes": 1254
+  },
+  {
+    "file": "vendor/libwebp/src/utils/quant_levels_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "95b5916c79536761009073f13151159796a2db86f8e0b7d80370ef6b35a879e7",
+    "bytes": 4114
+  },
+  {
+    "file": "vendor/libwebp/src/utils/quant_levels_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "5d6a84f7603aa6a4bd9676966de2eb4bc3b2e0fc4c7aa2cf75170221b54572aa",
+    "bytes": 1203
+  },
+  {
+    "file": "vendor/libwebp/src/utils/random_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "b41422c972d1b76ee1f99fbf419d5e026ec2baa0a4fe08bb7939c31d083c7b28",
+    "bytes": 1863
+  },
+  {
+    "file": "vendor/libwebp/src/utils/random_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "c30dac4531cbb06de6463854175c106d8f1de10e64b00fa47e62f8d12d15f0cb",
+    "bytes": 2111
+  },
+  {
+    "file": "vendor/libwebp/src/utils/rescaler_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "8a3afac6a5a917a0508c1d8f2c1daf595f0d77bc66b3ed9136c5af9e432c8431",
+    "bytes": 5945
+  },
+  {
+    "file": "vendor/libwebp/src/utils/rescaler_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "ea2e5cb89d1c6050613f758a91f9a35c53b5e0d9d4dfa9245e837b3e2c4835ae",
+    "bytes": 4111
+  },
+  {
+    "file": "vendor/libwebp/src/utils/thread_utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "474b6d6cc3f8c3197af2d31cb1cdc7d6e88db964db260f2e7d5e9916b2e65594",
+    "bytes": 11145
+  },
+  {
+    "file": "vendor/libwebp/src/utils/thread_utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "dbac595ac7ea89f43fe6b796ed0e2b6944e3d2326caf35aaeb58f3289b918bf1",
+    "bytes": 3689
+  },
+  {
+    "file": "vendor/libwebp/src/utils/utils.c",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "9c012240b1cff7ea9fb422f82479e1608f04b4d20d05945e5e66a4a445e254be",
+    "bytes": 9003,
+    "local_patch": "vendor/libwebp/ps4mc-budget.patch",
+    "upstream_sha256": "c8d90b4ccd536136ac710321c2632912a1f6ee2492a423e14ab9deb159490a56"
+  },
+  {
+    "file": "vendor/libwebp/src/utils/utils.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "9770471e412a9429fef2c1b3b8adb12e5e8716b79ae87ab28a3a220a285b5dd8",
+    "bytes": 7152
+  },
+  {
+    "file": "vendor/libwebp/src/webp/config.h.in",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "a84857e5c596a68a0f6991e89fe6eb3281c865a0e2e0b8617d0bff617f390de7",
+    "bytes": 4045
+  },
+  {
+    "file": "vendor/libwebp/src/webp/decode.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "e554551d085f234e930f36b5879a77ef58bfea34c48ebfd620426e63b224025c",
+    "bytes": 24342
+  },
+  {
+    "file": "vendor/libwebp/src/webp/demux.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "9b0d10c0fa1ac2dc750c4d687b038e40a685bb9240cb045759f5b9546017361d",
+    "bytes": 16019
+  },
+  {
+    "file": "vendor/libwebp/src/webp/encode.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "928e8d3ed502baa0f47ed10913ee018ed6172afcd4f308e0ea005a126b83f27e",
+    "bytes": 28501
+  },
+  {
+    "file": "vendor/libwebp/src/webp/format_constants.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "6f26d54038b770c5f9ddcd8f8e2da05d43c92168cb30f0e7060240f90df5fd7f",
+    "bytes": 4016
+  },
+  {
+    "file": "vendor/libwebp/src/webp/mux.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "c72cf593f8194c671efcade33f1678294380120d45a337511d612a3acb643f35",
+    "bytes": 25966
+  },
+  {
+    "file": "vendor/libwebp/src/webp/mux_types.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "ca789c9fe2edc52f759cb3888e9171ee44b5c12f2db21458f96176d578bc897e",
+    "bytes": 3260
+  },
+  {
+    "file": "vendor/libwebp/src/webp/types.h",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "archive_sha256": "e4ab7009bf0629fd11982d4c2aa83964cf244cffba7347ecd39019a9e38c4564",
+    "sha256": "992d2ffe864adb6d80cc91b7a062074d167ed96772f28d104a650148eca31794",
+    "bytes": 3177
+  },
+  {
+    "file": "licenses/libwebp-COPYING.txt",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf",
+    "bytes": 1496
+  },
+  {
+    "file": "licenses/libwebp-PATENTS.txt",
+    "source": "https://storage.googleapis.com/downloads.webmproject.org/releases/webp/libwebp-1.6.0.tar.gz",
+    "version": "1.6.0",
+    "sha256": "cc3273e0694ea5896145e0677699b53471b03ea43021ddc50e7923fbb9f5023c",
+    "bytes": 1436
+  },
+  {
+    "file": "vendor/libwebp/src/webp/config.h",
+    "source": "Local PS4MC decoder build configuration",
+    "sha256": "1f3985e2680b5e1a68340f236f50586c192db464697e3bc48922edb30dd0123a",
+    "bytes": 159
+  },
+  {
+    "file": "vendor/libtiff/LICENSE.md",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "0e27c2382d7b8147972bbb746e04059a1152c8d0fda9d03ef1399d1a433c4ade",
+    "bytes": 2416
+  },
+  {
+    "file": "vendor/libtiff/README.md",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "13ae2e117af780a9232ab80f1f7427107417a2d877e5d1b37a248ea49a08ea8b",
+    "bytes": 2672
+  },
+  {
+    "file": "vendor/libtiff/RELEASE-DATE",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "9235be1b64c0af6a304e98185853aaf3387651e664a73bde57c646e8eced067f",
+    "bytes": 9
+  },
+  {
+    "file": "vendor/libtiff/VERSION",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "1b356a2ec960f9b3d3f217dbe57724fd03280bd05e1ab84b38cacdaeb3a45638",
+    "bytes": 6
+  },
+  {
+    "file": "vendor/libtiff/decoder_sources.cmake",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "86209a13ab04fb4e9679871cb1380af3b0b4b3b14ae71faadcccd49877c17383",
+    "bytes": 1678,
+    "local_configuration": true
+  },
+  {
+    "file": "vendor/libtiff/decoder_sources.json",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "49d95c0968e6863ec09a302035a2afe1ed1c080902a139ecc2f241b1fb3aa879",
+    "bytes": 1071,
+    "local_configuration": true
+  },
+  {
+    "file": "vendor/libtiff/libtiff/CMakeLists.txt",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "ddf36db12675706d95f8a1cafe4202658b28360e73d1e481f860ec546eefccf1",
+    "bytes": 9695
+  },
+  {
+    "file": "vendor/libtiff/libtiff/Makefile.am",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "98c3bf3f953d3fbdd7fd27ee74d6f373ef698edb86e4d9514a40b2f952593e30",
+    "bytes": 3296
+  },
+  {
+    "file": "vendor/libtiff/libtiff/libtiff.def",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "7a042ea480c5f0f28432daee58e6489c944285c39cc437c2fe3ed51e5732655a",
+    "bytes": 3790
+  },
+  {
+    "file": "vendor/libtiff/libtiff/libtiff.map",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "bd5851d2ef578233eb348ffb734e02dc62d402da7e52aa2bc416214a3bb105bf",
+    "bytes": 4831
+  },
+  {
+    "file": "vendor/libtiff/libtiff/libtiffxx.map",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "ef9fe3c6f69ea55d6a26f2c931e58229130ae9840311e7649da966f36b323a9b",
+    "bytes": 36
+  },
+  {
+    "file": "vendor/libtiff/libtiff/mkspans.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "1df900f0ee707f60ecd761085abd7f9578dbd75881982df86283200a02dadb80",
+    "bytes": 2378
+  },
+  {
+    "file": "vendor/libtiff/libtiff/t4.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "68fea8b3e6ac6f9c02395de1ac7759686d82c773024caa9c112784dfa967cae5",
+    "bytes": 13144
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_aux.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "f3d2483b10e3e86b4d5513923b1141f9334da4c6c0f02ffd8de496622adbead4",
+    "bytes": 13240
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_close.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "9bb5117858fd0cbc4b9f330e2eb4f3916f72dc5dd52b0d493a05fab9533e943d",
+    "bytes": 5349
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_codec.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "ba6c41b956bfccb221b8e9d088502880544f7dedb751f50fdaddefd1edd263cb",
+    "bytes": 5113
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_color.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "f1e2639a70cb143f3ddc27551b9319df29034dfd5dab3dd9495a74c59dab5e3e",
+    "bytes": 10918
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_compress.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "9cb851d88f5cd8b0ffadd0b35fe467f8160c5160e477fac9b373479eafff056c",
+    "bytes": 8739
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_config.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "557538d8a813a85f6c2dbee870f1051b51c388718e1ff37337b97e293ad793b5",
+    "bytes": 4698,
+    "local_configuration": true,
+    "configuration_note": "TIFF_SSIZE_T is ptrdiff_t; use the portable td printf modifier on macOS and PS4."
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_config.h.cmake.in",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "fba32940bfa57ea3a6bf43292c6d394bcf98f2aaa97326232cfec422c4b22d33",
+    "bytes": 4794
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_config.h.in",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "5296b73f31faeb5ffe353195c1016920a6de68b4800daa48405c9730e4aced4b",
+    "bytes": 4744
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_dir.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "edb6bc1b86f981573f687cf9be62cfe180eecc4649f109260ed43eb558f131d4",
+    "bytes": 88838
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_dir.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "f210e8d4a2012729cdc9a7eee8e66799dbaf95e91c9b661f8366aa26c1202ebc",
+    "bytes": 13682
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_dirinfo.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "5abfb83366bcf2b86cdcd7f16e39420f57ce7095a3d2521aa4b6abbf12990856",
+    "bytes": 77598
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_dirread.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "15692d871d9987c6af1c2cbbc25fc395d02c6fca24d31a976bc45732a7c0d61a",
+    "bytes": 281847
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_dirwrite.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "6df85fd5062deeff43a18a2af2fc686f717a8923afb8d8d764369bcec8c09951",
+    "bytes": 149688
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_dumpmode.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "683cdc74f4b387cd3c253e64300b905f360e08369a55ff07fb494445b4aae0c7",
+    "bytes": 3567
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_error.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "ec178c0dcb7d1e4e6a5aec3220549ab5372cdc1725b185584972c005d11f5abd",
+    "bytes": 3754
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_extension.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "b49abfbd8f153237ff1187c6c1d34ffd0a6f26013b70d133b41ba64cbbf725ca",
+    "bytes": 3099
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_fax3.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "f456990ced5ea07a7e4511a3208bde6f649d71faa481ba82788e71e69306613b",
+    "bytes": 62462
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_fax3.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "e9308b132c2fc383e5de21d2bcc2f71e379e01e3c1d91f6a64224f1e3300de20",
+    "bytes": 43162
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_fax3sm.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "7484907f2bd8a2439f582158e2eeef7f209780a411ea07e1b88ce74fa0cbbc75",
+    "bytes": 104760
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_flush.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "0d6277cc2c3c898056290be7162913b148ce13f0d27a1146e1f1f30e34a014ae",
+    "bytes": 5525
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_getimage.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "067e430d7144a7c8e01a2f2ebc0bea41d5b9662069c428f0ade948dfa412f066",
+    "bytes": 109966
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_hash_set.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "f92c0a36a69e0d5cfae636dbf456aef591d4a5713c7c39933e04e14631f30d09",
+    "bytes": 18315
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_hash_set.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "de1ba012c293a798301e445e2d65b8a37bfd60426b7a6be59891058163c896eb",
+    "bytes": 3384
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_jbig.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "f34f27a3af8b8384b0d2c4dbbcf9850edff7d56cbafe25db04faa1bece0c3982",
+    "bytes": 6998
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_jpeg.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "f8b16dec952d422c25190db8e851bee3f5a643def263518cc4db0e324288e57e",
+    "bytes": 98133
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_jpeg_12.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "ced2ed32bd1f9537b004eebfdda273833655e747fea6103289597a22fa5394e4",
+    "bytes": 1356
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_lerc.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "91ce23341c5c813e4132d398dd9674c4eac883969f9ab5320d7cee4165273b03",
+    "bytes": 49607
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_luv.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "69744fe61760a0fe57e998bd87a074a937f24f3ac3b8a961c26bca28dc4f3e14",
+    "bytes": 53784
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_lzma.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "25f9c68b194513bf2dcbf3fa6ab9a1fe174dd28043fb287e7723be1e483312bd",
+    "bytes": 16272
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_lzw.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "d4195dc068c075bde388edb2542a53794234a2030cc8ca17095f9e0b4162cb0f",
+    "bytes": 47369
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_next.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "259dbb200cba3995914dd8bd92ccd7bbd39ac1ef837b5c3df072f013018be744",
+    "bytes": 7132
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_ojpeg.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "6ea97098cc03993866213a01967a3614c526ad7d8a560cbad483c916491c374e",
+    "bytes": 100787
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_open.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "c37d6028c4a92145ecee804e901f695747028fa71af794ccb5ca2370b36fbc57",
+    "bytes": 32761
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_packbits.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "e43d9c38b2ca24308ce807c90c13ebab768fd6c1d610b13861f377b148b81447",
+    "bytes": 9856
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_pixarlog.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "993012c9c0a623002b8a91f32c033529f382e23ffa8dfb1481414942369a5ef0",
+    "bytes": 55457
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_predict.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "ff7e676647f372a643466486c328f587df6c4c00e525e6081cb3bc68b2a756b0",
+    "bytes": 35229
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_predict.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "a1a7241bac6631f1161921f5158a96c7ee53dbe293f7caefdf945cd279046c48",
+    "bytes": 2897
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_print.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "b3699c1eb75d60e768f122371cca49da81c4f0cfb0df6df09144067f25c9e0d8",
+    "bytes": 26748
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_read.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "e7c263b364251845f9f3307a619b939d186260b669a6e67136e8131f088bd87c",
+    "bytes": 56016
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_stream.cxx",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "80fe30ffefee7bab48fe9699af5cba5aac72b8d3e22bb90e768623c5751a24db",
+    "bytes": 13479
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_strip.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "ee9dd014dbcc311223f325e68369216e0c9c482cedb87ad11fe66cefed7e4af1",
+    "bytes": 13367
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_swab.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "2c731d924ea3e6e394e9fa2c7f08e7f741669ac5cc64cc6731004a97c181cc75",
+    "bytes": 10359
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_thunder.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "460d654b8133262f43019d80fec5109a88ab8372561e6f31ad94884f0b3cfe3d",
+    "bytes": 7418
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_tile.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "09f8d36485ce9015d982fb0ccb9bdbe6af8f2c58f4fcc29c5216173ed44d00b3",
+    "bytes": 9494
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_unix.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "5c0a048ff2f28a643558ad8f5665fcc25e12889f02935f70e9aafe4511a74a99",
+    "bytes": 9748
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_version.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "c6bc3af2cc77a377f780bbe87087d2fc7a49686dd88b9a1a69d57b95530b95b0",
+    "bytes": 1343
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_warning.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "cfb6a08e9240ca789b061be18b980173d07fe6d645a5eace7557f33d076369bb",
+    "bytes": 3127
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_webp.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "cb32140a56067622e39a81e299da85d80ee722dc176c1f3cc250d3cd502d7119",
+    "bytes": 27181
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_win32.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "3fbd26e6cc338a1819289d77c434e7a5b33998c40f04c087591882a3daacec1f",
+    "bytes": 11804
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_win32_versioninfo.rc",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "48ece7affe424792ce1bb649f9525d905cef7b22d1ca80740b5cff7222200443",
+    "bytes": 1252
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_write.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "cb460b6ed838bc8afa5aadbdd7e3aa0d4f16230ad0c38dcadfb08bcc204e0014",
+    "bytes": 32642
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_zip.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "ec28add380c2db3d240111825217fddae221949c9aba2ecc06b2bcfcb3c9d7f2",
+    "bytes": 23814
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tif_zstd.c",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "91bd619384b6cef57569a80df1715c8eea5cd356fe65a6dd4e628fd416095b39",
+    "bytes": 11747
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiff.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "ff8668357867cefdb31d7807a441fea04422bcff929303be09e16d99c7528fa6",
+    "bytes": 59948
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiffconf.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "f5a01b45a378ccf1bbf5769641f93257203e5e5fe142c08284cc64f3cb5d64d5",
+    "bytes": 4024,
+    "local_configuration": true
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiffconf.h.cmake.in",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "d8de2b096f1766011bc03c96c4a71f343fc4dfa444f383396ec6c4adb46efecc",
+    "bytes": 4102
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiffconf.h.in",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "acfcaca16764295106f4bd02e43602abaaa17f009ea0cd13c57839300b4b6e23",
+    "bytes": 3774
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiffio.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "a277ca92dd3962012db24d1c38df68565e045290be43f0a84ad0edbfc8051ee1",
+    "bytes": 29438
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiffio.hxx",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "cd7ebd22cdba45167415b000e923f7d0ef9301028a3e775e3ace9e8c60d15ece",
+    "bytes": 1525
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiffiop.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "67857ff1024416d52b8f377f09bc044186a015fc4eb7988f53e7ce248f6dd43c",
+    "bytes": 25501
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiffvers.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "442c45ef048898494efd917695daf87d9b2fa0466e85a658884a1888c397c039",
+    "bytes": 1410,
+    "local_configuration": true
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiffvers.h.cmake.in",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "72d2408dca6b7acf7b4ad6770a995abf0e141960a246817778ea2a7d8930d64f",
+    "bytes": 1519
+  },
+  {
+    "file": "vendor/libtiff/libtiff/tiffvers.h.in",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "72d2408dca6b7acf7b4ad6770a995abf0e141960a246817778ea2a7d8930d64f",
+    "bytes": 1519
+  },
+  {
+    "file": "vendor/libtiff/libtiff/uvcode.h",
+    "source": "https://gitlab.com/libtiff/libtiff/-/archive/v4.7.1/libtiff-v4.7.1.tar.gz",
+    "version": "4.7.1",
+    "archive_sha256": "6ab956415ddb6cae497faad18398ff0fd056d17d8bf7b5921cc194c55b0191fc",
+    "sha256": "f815e1b3530ad3f48ea47a2865d39a2b40f59a18876410cbdda976b64c2a3042",
+    "bytes": 5521
+  },
+  {
+    "file": "vendor/zlib/LICENSE",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243",
+    "bytes": 1002
+  },
+  {
+    "file": "vendor/zlib/README",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "d106dcdb2a0b3087cb3a2380b9f00a0bbadc7eb835cd80408f94a2d78d69727d",
+    "bytes": 5317
+  },
+  {
+    "file": "vendor/zlib/adler32.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "9cd1443a24ff2a3053961695bd432035c58347386a420d3388232376ebabe211",
+    "bytes": 4964
+  },
+  {
+    "file": "vendor/zlib/compress.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "86f802c16a965e7a28737e3730b4e576c5ba40981753967e3e30916f4dc1b4b1",
+    "bytes": 2613
+  },
+  {
+    "file": "vendor/zlib/crc32.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "8fd16f0a7714d51c89c2eb37eb98ec15e8a4dc57ba343e7b7398b19144039fda",
+    "bytes": 31605
+  },
+  {
+    "file": "vendor/zlib/crc32.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "9a2223575183ac2ee8a247f20bf3ac066e8bd0140369556bdbdffc777435749e",
+    "bytes": 591749
+  },
+  {
+    "file": "vendor/zlib/decoder_sources.cmake",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "8f812d05b8669bc1c5c1ebcc8bc27708ee21361bd4538bd8325c84347ddf2ca2",
+    "bytes": 251,
+    "local_configuration": true
+  },
+  {
+    "file": "vendor/zlib/decoder_sources.json",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "4b2d5f840152d5436a03e0058fa8d958c0fb56dbb20fa1bc8497791f1c9f13ed",
+    "bytes": 133,
+    "local_configuration": true
+  },
+  {
+    "file": "vendor/zlib/deflate.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "3b956337350f94c34987750f785587ef33d9c89ceaebb7c2afb189c956360cbe",
+    "bytes": 81731
+  },
+  {
+    "file": "vendor/zlib/deflate.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "48baf016326d8d5e3e32ac8153cc7e22f854b8e6834830b167b998a7fb1e7989",
+    "bytes": 14041
+  },
+  {
+    "file": "vendor/zlib/gzclose.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "35ea6e991a63095f797d8c4cc25817fac7a7155c2ba7dcdbbf648f7871c7ea40",
+    "bytes": 668
+  },
+  {
+    "file": "vendor/zlib/gzguts.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "716fa648aca1bb06c219d7b97ad4846d8479206143bc39557bfd8283f5783e04",
+    "bytes": 6676
+  },
+  {
+    "file": "vendor/zlib/gzlib.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "042c2be8ec67ad525a2812e508de7381c6766dde903acf5ae6ac4fa6b541946d",
+    "bytes": 16270
+  },
+  {
+    "file": "vendor/zlib/gzread.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "72e481aca07b0b85a9783237b85dc67ff3a4c1d19878d0cec69f58d38634867b",
+    "bytes": 19918
+  },
+  {
+    "file": "vendor/zlib/gzwrite.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "469b1e58932ea11bdda2a153f6655f7b3c13254240fae157181b49ed1bc93b47",
+    "bytes": 19237
+  },
+  {
+    "file": "vendor/zlib/infback.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "62df9a6dd3eef126f1d81d0ad7a534504610dec44482b0a472b61c93cbab6554",
+    "bytes": 22669
+  },
+  {
+    "file": "vendor/zlib/inffast.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "e6ef64ce5dc0a4cd5c7ad08ceeb2b2a698b8447f6bd156057caeb2edab68c0cb",
+    "bytes": 12924
+  },
+  {
+    "file": "vendor/zlib/inffast.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "05cc5dc9ff1da7b8b52a4bd8bda0d8a5c236a2f39efe84b941516ea13857e6c5",
+    "bytes": 422
+  },
+  {
+    "file": "vendor/zlib/inffixed.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "237ba710f090e432b62ebf963bee8b302867e9691406b2d3f8ee89ee7bfef9b0",
+    "bytes": 6332
+  },
+  {
+    "file": "vendor/zlib/inflate.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "34c998ce0037c0537c04b03b276f680b945f9b2c9d1e01b287605bd6879f7fd2",
+    "bytes": 55519
+  },
+  {
+    "file": "vendor/zlib/inflate.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "e8d4a51b07694bf48cb91979c19974cf6a5ab0b8a09d26ec0d14df349230673e",
+    "bytes": 6683
+  },
+  {
+    "file": "vendor/zlib/inftrees.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "5d4f335221d2dc76f17abd2577d92c2d7baf68fa6d7f23373b360830493d1563",
+    "bytes": 13024
+  },
+  {
+    "file": "vendor/zlib/inftrees.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "0a0fcaf2ae2fae57426bdc06637270e9bba974f35202cadbdba479d946e6409d",
+    "bytes": 2920
+  },
+  {
+    "file": "vendor/zlib/trees.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "f63c68c16c05fcd196050529d1a0e7657960e4136b9987d90a6ac3e58a964b0f",
+    "bytes": 40937
+  },
+  {
+    "file": "vendor/zlib/trees.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "bb0a9d3ca88ee00c81adb7c636e73b97085f6ef1b52d6d58edbe2b6dc3adeb4d",
+    "bytes": 8472
+  },
+  {
+    "file": "vendor/zlib/uncompr.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "04dca5e31b3b8a17d1806426f66f0c539f4184d657e149d40be07070c6227b52",
+    "bytes": 2911
+  },
+  {
+    "file": "vendor/zlib/zconf.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "f5134250a67d57459234b63858f0d9d3ef8dcc48e9e1028d3f4fdcf6eae677ae",
+    "bytes": 16500
+  },
+  {
+    "file": "vendor/zlib/zlib.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "8a5579af72ea4f427ff00a4150f0ccb3fc5c1e4379f726e101133b1ab9fc600c",
+    "bytes": 96829
+  },
+  {
+    "file": "vendor/zlib/zutil.c",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "8ced40d8c88588811edd2bdb35b7439983d5e1f8e9e32b8a3b244731f3c317b7",
+    "bytes": 7179
+  },
+  {
+    "file": "vendor/zlib/zutil.h",
+    "source": "https://codeload.github.com/madler/zlib/tar.gz/refs/tags/v1.3.1",
+    "version": "1.3.1",
+    "archive_sha256": "17e88863f3600672ab49182f217281b6fc4d3c762bde361935e436a95214d05c",
+    "sha256": "dddb2dc7a1dc339ecf2c8e089b366f08bb731c0839c7110240d17ce731bb4fea",
+    "bytes": 6677
+  },
+  {
+    "file": "licenses/libtiff-LICENSE.md",
+    "sha256": "0e27c2382d7b8147972bbb746e04059a1152c8d0fda9d03ef1399d1a433c4ade",
+    "bytes": 2416
+  },
+  {
+    "file": "licenses/zlib-LICENSE.txt",
+    "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243",
+    "bytes": 1002
+  },
+  {
+    "file": "vendor/goldhen-sdk/include/GoldHEN.h",
+    "source": "https://raw.githubusercontent.com/GoldHEN/GoldHEN_Plugins_SDK/bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7/include/GoldHEN.h",
+    "commit": "bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7",
+    "sha256": "959a68ebc9b1fbb2e319d854a1679a603a427b69df0d07769b0f457952e16032",
+    "bytes": 2107
+  },
+  {
+    "file": "vendor/goldhen-sdk/include/Syscall.h",
+    "source": "https://raw.githubusercontent.com/GoldHEN/GoldHEN_Plugins_SDK/bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7/include/Syscall.h",
+    "commit": "bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7",
+    "sha256": "8b0ea17284ca0cdcc29e42787913d8a2f327f759a19ed90b575863103c210c39",
+    "bytes": 556
+  },
+  {
+    "file": "vendor/goldhen-sdk/source/GoldHEN.c",
+    "source": "https://raw.githubusercontent.com/GoldHEN/GoldHEN_Plugins_SDK/bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7/source/GoldHEN.c",
+    "commit": "bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7",
+    "sha256": "f6286af160a5011785672d2e45e36d8029b38026984f81f7a709ce84550c4717",
+    "bytes": 1701
+  },
+  {
+    "file": "vendor/goldhen-sdk/source/Syscall.c",
+    "source": "https://raw.githubusercontent.com/GoldHEN/GoldHEN_Plugins_SDK/bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7/source/Syscall.c",
+    "commit": "bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7",
+    "sha256": "506cba283ce09e602576cd55e41f1e4281b2ccbc6f942ee7bd51baa4a4b02ddf",
+    "bytes": 986
+  },
+  {
+    "file": "vendor/goldhen-sdk/LICENSE",
+    "source": "https://raw.githubusercontent.com/GoldHEN/GoldHEN_Plugins_SDK/bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7/LICENSE",
+    "commit": "bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7",
+    "sha256": "fea871966de39ea6ef5ee584246bdbe60ef233f5847b9cf44edaf0b6cd798b42",
+    "bytes": 1064
+  },
+  {
+    "file": "vendor/goldhen-sdk/README.md",
+    "source": "https://raw.githubusercontent.com/GoldHEN/GoldHEN_Plugins_SDK/bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7/README.md",
+    "commit": "bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7",
+    "sha256": "4686933fa8f720fd6668c6edd5a15baf422713259156259d35c1f5aa6f5655d8",
+    "bytes": 1959
+  },
+  {
+    "file": "licenses/GoldHEN-SDK-LICENSE.txt",
+    "source": "https://raw.githubusercontent.com/GoldHEN/GoldHEN_Plugins_SDK/bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7/LICENSE",
+    "commit": "bcea3c7ef01dac6d7f9f49ebf9e90fe66d86f5f7",
+    "sha256": "fea871966de39ea6ef5ee584246bdbe60ef233f5847b9cf44edaf0b6cd798b42",
+    "bytes": 1064
+  }
+]

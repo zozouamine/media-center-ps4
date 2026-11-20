@@ -1,0 +1,42 @@
+# Build outputs
+/build/
+/cmake-build*/
+/out/
+
+# Generated test fixtures and local validation state
+/tests/generated/
+
+# Packaged releases and local distribution artifacts
+/PKG Build/*.pkg
+/PKG Build/*.PKG
+
+# Validation and runtime reports
+/reports/
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.user
+
+# Logs and temporary files
+*.log
+*.tmp
+/tmp/
+
+# Backup files
+*.bak
+*.orig

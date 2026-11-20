@@ -1,0 +1,18 @@
+[
+  {
+    "file": "assets/fonts/PS4MC-Sans.ttf",
+    "source_file": "assets/fonts/NotoSans[wdth,wght].ttf",
+    "derivative_family": "PS4MC Sans",
+    "sha256": "c8f82c0c497a6a1b3fb72fcfd52cf23d763afacfb2fe469e7cca3ee8a0060ca9",
+    "bytes": 56848,
+    "license": "OFL-1.1"
+  },
+  {
+    "file": "assets/fonts/PS4MC-Arabic.ttf",
+    "source_file": "assets/fonts/NotoSansArabic[wdth,wght].ttf",
+    "derivative_family": "PS4MC Arabic",
+    "sha256": "c8085d9d5274d6c9dcd5c3dc744962f5138081a4160b0b94a41e25ce12f1ac2e",
+    "bytes": 150764,
+    "license": "OFL-1.1"
+  }
+]

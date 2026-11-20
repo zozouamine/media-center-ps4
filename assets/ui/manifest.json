@@ -1,0 +1,182 @@
+[
+  {
+    "file": "assets/ui/ps4-logo.png",
+    "sha256": "6006e8234d1abbd576860f2df9e98df8da9ad33ecfdee60826a5bdeee0b30e15",
+    "bytes": 77189,
+    "source": "User-supplied application header logo, resized to the bounded UI texture size."
+  },
+  {
+    "file": "assets/ui/usb.png",
+    "sha256": "d1d5a247a4eb87e1ab1759dfc9cf9bff42ddaebd23eb90e3ae593a65a3daf577",
+    "bytes": 16252,
+    "source": "User-supplied USB icon artwork."
+  },
+  {
+    "file": "assets/ui/videos.png",
+    "sha256": "85518d64390f555cb443ca4a92a1781d948e0e742fc46e581ab3ed43b16c0ee2",
+    "bytes": 11242,
+    "source": "User-supplied video icon artwork."
+  },
+  {
+    "file": "assets/ui/music.png",
+    "sha256": "fb3aac9766f1640005d093ddf485492d80d706bb3260853390b22baa0d7832df",
+    "bytes": 12046,
+    "source": "User-supplied music icon artwork."
+  },
+  {
+    "file": "assets/ui/photos.png",
+    "sha256": "b4a1705831a91912ccef38dd36392c283f35b0230a37586e96bbbd9371de0c4d",
+    "bytes": 20087,
+    "source": "User-supplied photo icon artwork."
+  },
+  {
+    "file": "assets/ui/folder.png",
+    "sha256": "8a15ee342d5f5158103ab5006c1484669e6dcd07993b1ac12466556824784995",
+    "bytes": 31658,
+    "source": "User-supplied folder icon artwork."
+  },
+  {
+    "file": "assets/ui/buttons/cross.png",
+    "sha256": "909e73a2145b447f93d0ad96c0a7cff170dd2d7db9342008448d5a074419a7e3",
+    "bytes": 5329,
+    "source": "User-supplied PlayStation cross button artwork."
+  },
+  {
+    "file": "assets/ui/buttons/circle.png",
+    "sha256": "d33a8758dc508bc810b9852aa3b36eb3c0bb4f0054e99b5685cf742fcd8e9dd7",
+    "bytes": 5461,
+    "source": "User-supplied PlayStation circle button artwork."
+  },
+  {
+    "file": "assets/ui/buttons/triangle.png",
+    "sha256": "348486dff4ad24d66246a10025385406a1b11e07748c7a14b174e52d013b496f",
+    "bytes": 5325,
+    "source": "User-supplied PlayStation triangle button artwork."
+  },
+  {
+    "file": "assets/ui/buttons/square.png",
+    "sha256": "f425172f8b08f63ed228e16b8fc446b0019dbd89e6ca32ffe46927309dd0ed1b",
+    "bytes": 5111,
+    "source": "User-supplied PlayStation square button artwork."
+  },
+  {
+    "file": "assets/ui/transport/aspect.png",
+    "sha256": "5d95745de3acb4a7b36965964e229b5cf265cfb1fc20ee6552aceefd9635257d",
+    "bytes": 969,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/aspect.svg",
+    "sha256": "6dca3eb508227cb828cdd15e1ae79fe24c524ab11b3a7a173a7883cb89ee8682",
+    "bytes": 214,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/back.png",
+    "sha256": "53d864a4af3a664a08953ef5ec0aebaf31d43da1262900256bfd9ff7fec8368c",
+    "bytes": 779,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/back.svg",
+    "sha256": "f5dc3e4de1d7889706a81d30b134f99169df436b635e910a12b13eff6387355f",
+    "bytes": 199,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/backward-10.png",
+    "sha256": "126973ddaf46273226b0198b07c245939f7b32376b58a88490bce74e128a1e22",
+    "bytes": 3246,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/backward-10.svg",
+    "sha256": "4f176dc98f55f2e127c39ac6747dae73ae7f93be86cbe10f11b2dd9ffa0d0c38",
+    "bytes": 348,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/forward-10.png",
+    "sha256": "6ca51eb2c5397f659d551a3ffe88c650ff7ed3412da64b072854aa0af15dc1e4",
+    "bytes": 3229,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/forward-10.svg",
+    "sha256": "3661d39f248d929d8867b2683a90ebab912bf337a42c45c922637358d71bde45",
+    "bytes": 395,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/next.png",
+    "sha256": "cfdc6b73d74117807a431c7802d315c6b194f7dcd971a7b774e0290635bf2469",
+    "bytes": 1051,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/next.svg",
+    "sha256": "9e0349d116a681821c3b66c03525d414db8ac3bfa48e87f8952ce4c1ef53763f",
+    "bytes": 279,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/options.png",
+    "sha256": "8c9e69dde57498c0630a1a0dd1c28e4a51d0c36373582d48c5bf87a1cc3eca8b",
+    "bytes": 551,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/options.svg",
+    "sha256": "18f68278d1dbbb0c9fdb248f502fc307a042026fc54e33cdff03a6d42cf98554",
+    "bytes": 306,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/pause.png",
+    "sha256": "0a8394b0082768493fce90555287b9be05a46cc2ed3ae2d502285ae287f1884d",
+    "bytes": 636,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/pause.svg",
+    "sha256": "474cd6577eaf7781db4b9ab11646df1c8a81c42dfff4c19d10f9aba287591c7b",
+    "bytes": 314,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/play.png",
+    "sha256": "7fb9aecacaac09bdceef9fdba9b5d9dbe51a0ffc12860098738d372be34a5d4e",
+    "bytes": 914,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/play.svg",
+    "sha256": "d76e28a22ee14b38a895ebefeef714d957f6aa6d52ec2c6421ecd5b1bce27e71",
+    "bytes": 214,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/previous.png",
+    "sha256": "d3bd992d618f6dffcb6c834e116e49d56c8a9ddcc68e13a7e9f216d87f0e8bb8",
+    "bytes": 1065,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/previous.svg",
+    "sha256": "bd5118dc06f1493d15417d041e4cdb7ca7b9a90be29bd9b57bbd56ce86f427b6",
+    "bytes": 232,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/stop.png",
+    "sha256": "a92b756fb967f5d1abacc8f2cad0330d598d4b2391b541519bd92edee5c71a18",
+    "bytes": 825,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  },
+  {
+    "file": "assets/ui/transport/stop.svg",
+    "sha256": "5976904b02a2dc98b24398d18dbd707e092a19c06cbc29b33018698dfea85f72",
+    "bytes": 238,
+    "source": "Original PS4MC geometric icon artwork; generated from tools/generate_ui_assets.py"
+  }
+]

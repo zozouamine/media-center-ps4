@@ -1,0 +1,45 @@
+{
+  "repository": "https://github.com/maxton/LibOrbisPkg",
+  "commit": "643477263b2644e0803e0f58b8726ea4e3f3b7d4",
+  "source_archive_sha256": "b0679b5ccda711da38d9e1f44eb5bc9a44df3a6da74e720096fd6b7ceeedec2b",
+  "modified_source": "tools/pkgtool-source",
+  "changes": [
+    "Target .NET 8",
+    "PKCS#1 v1.5 RSA using BigInteger instead of legacy AppleCrypto"
+  ],
+  "license_file": "licenses/LibOrbisPkg-LICENSE.txt",
+  "files": {
+    "LibOrbisPkg.Core.deps.json": {
+      "bytes": 418,
+      "sha256": "5659a45f47d8dc5f9277e89c48bf600e804433863df2d8603c7a1df1afbb2234"
+    },
+    "LibOrbisPkg.Core.dll": {
+      "bytes": 170496,
+      "sha256": "0838b758a800ae65998f6c9706164bcc05dd561610252bd3b046a44ebe2fb267"
+    },
+    "LibOrbisPkg.Core.pdb": {
+      "bytes": 54852,
+      "sha256": "2c07a575791519e2771ad54f0171d74a301c56ac02b315e9465e0ab1f89f376f"
+    },
+    "PkgTool.Core": {
+      "bytes": 100992,
+      "sha256": "dadca2a001350408834f32be6a67fcf4537fd3482ac86c968efb54a8c2cea7e8"
+    },
+    "PkgTool.Core.deps.json": {
+      "bytes": 791,
+      "sha256": "3c7e83b629c6f937bc20d4b184882103b3fbfb933e391153f7c37cac4cb52e70"
+    },
+    "PkgTool.Core.dll": {
+      "bytes": 30208,
+      "sha256": "5594657cc7a82b29802f57e046385723585d29cba398fa001b69558c9a99e716"
+    },
+    "PkgTool.Core.pdb": {
+      "bytes": 16312,
+      "sha256": "0e8f4dc3c712d4b50250937ac0493425c0ae7373a618930bd79c154a5eb9b7da"
+    },
+    "PkgTool.Core.runtimeconfig.json": {
+      "bytes": 328,
+      "sha256": "97c9700542b659150b230c3578b29530fd76ab01ec66a92cd16945e0245713df"
+    }
+  }
+}

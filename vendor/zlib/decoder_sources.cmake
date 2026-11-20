@@ -1,0 +1,11 @@
+set(MC_ZLIB_SOURCES
+    vendor/zlib/adler32.c
+    vendor/zlib/crc32.c
+    vendor/zlib/deflate.c
+    vendor/zlib/infback.c
+    vendor/zlib/inffast.c
+    vendor/zlib/inflate.c
+    vendor/zlib/inftrees.c
+    vendor/zlib/trees.c
+    vendor/zlib/zutil.c
+)
